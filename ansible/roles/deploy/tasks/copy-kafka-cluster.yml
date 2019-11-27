@@ -1,0 +1,4 @@
+- name: copy
+  copy:
+    src: /server/chain/dev/ansible/lib/kafka_cluster
+    dest: /root/downloads/fabric-samples

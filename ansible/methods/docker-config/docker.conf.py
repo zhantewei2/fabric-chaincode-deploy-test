@@ -1,0 +1,15 @@
+host_path="/root/downloads/fabric-samples/kafka_cluster"
+extra_hosts=[
+    "order1.example.com:192.168.1.226",
+    "order2.example.com:192.168.1.227",
+    "order3.example.com:192.168.1.228",
+    "peer1.org1.example.com:192.168.1.226",
+    "peer0.org1.example.com:192.168.1.227",
+    "peer0.org2.example.com:192.168.1.228",
+    "zookeeper1:192.168.1.226",
+    "zookeeper2:192.168.1.227",
+    "zookeeper3:192.168.1.228",
+    "kafka1:192.168.1.226",
+    "kafka2:192.168.1.227",
+    "kafka3:192.168.1.228",
+]
